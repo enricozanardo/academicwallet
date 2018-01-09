@@ -1,0 +1,4 @@
+/cryptonotewallet/build/CMakeFiles/cryptonote.dir
+/cryptonotewallet/build/CMakeFiles/cryptonote_automoc.dir
+/cryptonotewallet/build/CMakeFiles/universitycoin.dir
+/cryptonotewallet/build/CMakeFiles/universitycoin_automoc.dir

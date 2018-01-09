@@ -1,0 +1,1 @@
+set(AM_OLD_COMPILE_SETTINGS "GIT_REVISION=\"5e0d1b2\";_GNU_SOURCE ~~~ /cryptonotewallet/build;/cryptonotewallet/src;/cryptonotewallet/cryptonote/external;/cryptonotewallet/cryptonote/include;/cryptonotewallet/cryptonote/src;/cryptonotewallet/cryptonote/src/Platform/Linux;/usr/include ~~~  ~~~ FALSE ~~~ ")
