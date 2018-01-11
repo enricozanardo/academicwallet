@@ -1,0 +1,4 @@
+/academicwallet/build/CMakeFiles/academic.dir
+/academicwallet/build/CMakeFiles/academic_automoc.dir
+/academicwallet/build/CMakeFiles/cryptonote.dir
+/academicwallet/build/CMakeFiles/cryptonote_automoc.dir

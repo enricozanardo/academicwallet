@@ -1,0 +1,1 @@
+set(AM_OLD_COMPILE_SETTINGS "GIT_REVISION=\"f942219\";_GNU_SOURCE ~~~ /academicwallet/build;/academicwallet/src;/academicwallet/cryptonote/external;/academicwallet/cryptonote/include;/academicwallet/cryptonote/src;/academicwallet/cryptonote/src/Platform/Linux;/usr/include ~~~  ~~~ FALSE ~~~ ")
