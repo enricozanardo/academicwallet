@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'transactiondetailsdialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.2.1
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -67,8 +67,8 @@ public:
 
     void retranslateUi(QDialog *TransactionDetailsDialog)
     {
-        TransactionDetailsDialog->setWindowTitle(QApplication::translate("TransactionDetailsDialog", "Transaction details", 0));
-        m_closeButton->setText(QApplication::translate("TransactionDetailsDialog", "Close", 0));
+        TransactionDetailsDialog->setWindowTitle(QApplication::translate("TransactionDetailsDialog", "Transaction details", nullptr));
+        m_closeButton->setText(QApplication::translate("TransactionDetailsDialog", "Close", nullptr));
     } // retranslateUi
 
 };

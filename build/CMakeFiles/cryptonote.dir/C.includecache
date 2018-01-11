@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -26,11 +26,11 @@ stdlib.h
 
 ../src/miniupnpcstrings.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/bsdqueue.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/bsdqueue.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/codelength.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/codelength.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/connecthostport.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/connecthostport.c
 string.h
 -
 stdio.h
@@ -60,23 +60,23 @@ sys/socket.h
 sys/select.h
 -
 connecthostport.h
-/cryptonotewallet/cryptonote/external/miniupnpc/connecthostport.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/connecthostport.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/connecthostport.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/connecthostport.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/declspec.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/declspec.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/igd_desc_parse.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/igd_desc_parse.c
 igd_desc_parse.h
-/cryptonotewallet/cryptonote/external/miniupnpc/igd_desc_parse.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/igd_desc_parse.h
 stdio.h
 -
 string.h
 -
 
-/cryptonotewallet/cryptonote/external/miniupnpc/igd_desc_parse.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/igd_desc_parse.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/minisoap.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/minisoap.c
 stdio.h
 -
 string.h
@@ -92,15 +92,15 @@ sys/types.h
 sys/socket.h
 -
 minisoap.h
-/cryptonotewallet/cryptonote/external/miniupnpc/minisoap.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/minisoap.h
 miniupnpcstrings.h
-/cryptonotewallet/cryptonote/external/miniupnpc/miniupnpcstrings.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/miniupnpcstrings.h
 stdlib.h
 -
 
-/cryptonotewallet/cryptonote/external/miniupnpc/minisoap.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/minisoap.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/minissdpc.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/minissdpc.c
 stdio.h
 -
 string.h
@@ -128,15 +128,15 @@ sys/socket.h
 sys/un.h
 -
 minissdpc.h
-/cryptonotewallet/cryptonote/external/miniupnpc/minissdpc.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/minissdpc.h
 miniupnpc.h
-/cryptonotewallet/cryptonote/external/miniupnpc/miniupnpc.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/miniupnpc.h
 codelength.h
-/cryptonotewallet/cryptonote/external/miniupnpc/codelength.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/codelength.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/minissdpc.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/minissdpc.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/miniupnpc.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/miniupnpc.c
 stdlib.h
 -
 stdio.h
@@ -178,31 +178,31 @@ errno.h
 sys/time.h
 -
 miniupnpc.h
-/cryptonotewallet/cryptonote/external/miniupnpc/miniupnpc.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/miniupnpc.h
 minissdpc.h
-/cryptonotewallet/cryptonote/external/miniupnpc/minissdpc.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/minissdpc.h
 miniwget.h
-/cryptonotewallet/cryptonote/external/miniupnpc/miniwget.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/miniwget.h
 minisoap.h
-/cryptonotewallet/cryptonote/external/miniupnpc/minisoap.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/minisoap.h
 minixml.h
-/cryptonotewallet/cryptonote/external/miniupnpc/minixml.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/minixml.h
 upnpcommands.h
-/cryptonotewallet/cryptonote/external/miniupnpc/upnpcommands.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/upnpcommands.h
 connecthostport.h
-/cryptonotewallet/cryptonote/external/miniupnpc/connecthostport.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/connecthostport.h
 receivedata.h
-/cryptonotewallet/cryptonote/external/miniupnpc/receivedata.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/receivedata.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/miniupnpc.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/miniupnpc.h
 declspec.h
-/cryptonotewallet/cryptonote/external/miniupnpc/declspec.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/declspec.h
 igd_desc_parse.h
-/cryptonotewallet/cryptonote/external/miniupnpc/igd_desc_parse.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/igd_desc_parse.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/miniupnpctypes.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/miniupnpctypes.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/miniwget.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/miniwget.c
 stdio.h
 -
 stdlib.h
@@ -234,47 +234,47 @@ net/if.h
 netdb.h
 -
 miniupnpcstrings.h
-/cryptonotewallet/cryptonote/external/miniupnpc/miniupnpcstrings.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/miniupnpcstrings.h
 miniwget.h
-/cryptonotewallet/cryptonote/external/miniupnpc/miniwget.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/miniwget.h
 connecthostport.h
-/cryptonotewallet/cryptonote/external/miniupnpc/connecthostport.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/connecthostport.h
 receivedata.h
-/cryptonotewallet/cryptonote/external/miniupnpc/receivedata.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/receivedata.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/miniwget.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/miniwget.h
 declspec.h
-/cryptonotewallet/cryptonote/external/miniupnpc/declspec.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/declspec.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/minixml.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/minixml.c
 string.h
 -
 minixml.h
-/cryptonotewallet/cryptonote/external/miniupnpc/minixml.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/minixml.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/minixml.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/minixml.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/portlistingparse.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/portlistingparse.c
 string.h
 -
 stdlib.h
 -
 portlistingparse.h
-/cryptonotewallet/cryptonote/external/miniupnpc/portlistingparse.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/portlistingparse.h
 minixml.h
-/cryptonotewallet/cryptonote/external/miniupnpc/minixml.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/minixml.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/portlistingparse.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/portlistingparse.h
 declspec.h
-/cryptonotewallet/cryptonote/external/miniupnpc/declspec.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/declspec.h
 miniupnpctypes.h
-/cryptonotewallet/cryptonote/external/miniupnpc/miniupnpctypes.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/miniupnpctypes.h
 bsdqueue.h
-/cryptonotewallet/cryptonote/external/miniupnpc/bsdqueue.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/bsdqueue.h
 sys/queue.h
 -
 
-/cryptonotewallet/cryptonote/external/miniupnpc/receivedata.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/receivedata.c
 stdio.h
 -
 winsock2.h
@@ -294,11 +294,11 @@ poll.h
 errno.h
 -
 receivedata.h
-/cryptonotewallet/cryptonote/external/miniupnpc/receivedata.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/receivedata.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/receivedata.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/receivedata.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/upnpcommands.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/upnpcommands.c
 stdlib.h
 -
 stdio.h
@@ -306,23 +306,23 @@ stdio.h
 string.h
 -
 upnpcommands.h
-/cryptonotewallet/cryptonote/external/miniupnpc/upnpcommands.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/upnpcommands.h
 miniupnpc.h
-/cryptonotewallet/cryptonote/external/miniupnpc/miniupnpc.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/miniupnpc.h
 portlistingparse.h
-/cryptonotewallet/cryptonote/external/miniupnpc/portlistingparse.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/portlistingparse.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/upnpcommands.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/upnpcommands.h
 upnpreplyparse.h
-/cryptonotewallet/cryptonote/external/miniupnpc/upnpreplyparse.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/upnpreplyparse.h
 portlistingparse.h
-/cryptonotewallet/cryptonote/external/miniupnpc/portlistingparse.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/portlistingparse.h
 declspec.h
-/cryptonotewallet/cryptonote/external/miniupnpc/declspec.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/declspec.h
 miniupnpctypes.h
-/cryptonotewallet/cryptonote/external/miniupnpc/miniupnpctypes.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/miniupnpctypes.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/upnpreplyparse.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/upnpreplyparse.c
 stdlib.h
 -
 string.h
@@ -330,23 +330,33 @@ string.h
 stdio.h
 -
 upnpreplyparse.h
-/cryptonotewallet/cryptonote/external/miniupnpc/upnpreplyparse.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/upnpreplyparse.h
 minixml.h
-/cryptonotewallet/cryptonote/external/miniupnpc/minixml.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/minixml.h
 
-/cryptonotewallet/cryptonote/external/miniupnpc/upnpreplyparse.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/upnpreplyparse.h
 bsdqueue.h
-/cryptonotewallet/cryptonote/external/miniupnpc/bsdqueue.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/external/miniupnpc/bsdqueue.h
 sys/queue.h
 -
 
-/cryptonotewallet/cryptonote/src/Common/static_assert.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/Common/static_assert.h
 
-/cryptonotewallet/cryptonote/src/crypto/aesb.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/Platform/OSX/System/Context.c
+string.h
+-
+context.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/Platform/OSX/System/context.h
+
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/Platform/OSX/System/context.h
+stdlib.h
+-
+
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/aesb.h
 stdint.h
 -
 
-/cryptonotewallet/cryptonote/src/crypto/blake256.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/blake256.c
 string.h
 -
 stdio.h
@@ -354,13 +364,13 @@ stdio.h
 stdint.h
 -
 blake256.h
-/cryptonotewallet/cryptonote/src/crypto/blake256.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/blake256.h
 
-/cryptonotewallet/cryptonote/src/crypto/blake256.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/blake256.h
 stdint.h
 -
 
-/cryptonotewallet/cryptonote/src/crypto/chacha8.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/chacha8.c
 memory.h
 -
 stdio.h
@@ -368,11 +378,11 @@ stdio.h
 sys/param.h
 -
 chacha8.h
-/cryptonotewallet/cryptonote/src/crypto/chacha8.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/chacha8.h
 Common/int-util.h
-/cryptonotewallet/cryptonote/src/crypto/Common/int-util.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/Common/int-util.h
 
-/cryptonotewallet/cryptonote/src/crypto/chacha8.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/chacha8.h
 stdint.h
 -
 stddef.h
@@ -382,25 +392,25 @@ memory.h
 string
 -
 hash.h
-/cryptonotewallet/cryptonote/src/crypto/hash.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash.h
 
-/cryptonotewallet/cryptonote/src/crypto/crypto-ops-data.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/crypto-ops-data.c
 stdint.h
 -
 crypto-ops.h
-/cryptonotewallet/cryptonote/src/crypto/crypto-ops.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/crypto-ops.h
 
-/cryptonotewallet/cryptonote/src/crypto/crypto-ops.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/crypto-ops.c
 assert.h
 -
 stdint.h
 -
 crypto-ops.h
-/cryptonotewallet/cryptonote/src/crypto/crypto-ops.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/crypto-ops.h
 
-/cryptonotewallet/cryptonote/src/crypto/crypto-ops.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/crypto-ops.h
 
-/cryptonotewallet/cryptonote/src/crypto/generic-ops.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/generic-ops.h
 cstddef
 -
 cstring
@@ -408,43 +418,43 @@ cstring
 functional
 -
 
-/cryptonotewallet/cryptonote/src/crypto/groestl.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/groestl.c
 groestl.h
-/cryptonotewallet/cryptonote/src/crypto/groestl.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/groestl.h
 groestl_tables.h
-/cryptonotewallet/cryptonote/src/crypto/groestl_tables.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/groestl_tables.h
 
-/cryptonotewallet/cryptonote/src/crypto/groestl.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/groestl.h
 crypto_uint8.h
-/cryptonotewallet/cryptonote/src/crypto/crypto_uint8.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/crypto_uint8.h
 crypto_uint32.h
-/cryptonotewallet/cryptonote/src/crypto/crypto_uint32.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/crypto_uint32.h
 crypto_uint64.h
-/cryptonotewallet/cryptonote/src/crypto/crypto_uint64.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/crypto_uint64.h
 crypto_hash.h
-/cryptonotewallet/cryptonote/src/crypto/crypto_hash.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/crypto_hash.h
 stdint.h
 -
 
-/cryptonotewallet/cryptonote/src/crypto/groestl_tables.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/groestl_tables.h
 
-/cryptonotewallet/cryptonote/src/crypto/hash-extra-blake.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash-extra-blake.c
 stddef.h
 -
 stdint.h
 -
 blake256.h
-/cryptonotewallet/cryptonote/src/crypto/blake256.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/blake256.h
 
-/cryptonotewallet/cryptonote/src/crypto/hash-extra-groestl.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash-extra-groestl.c
 stddef.h
 -
 stdint.h
 -
 groestl.h
-/cryptonotewallet/cryptonote/src/crypto/groestl.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/groestl.h
 
-/cryptonotewallet/cryptonote/src/crypto/hash-extra-jh.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash-extra-jh.c
 assert.h
 -
 stddef.h
@@ -454,21 +464,21 @@ stdint.h
 string.h
 -
 jh.h
-/cryptonotewallet/cryptonote/src/crypto/jh.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/jh.h
 hash-ops.h
-/cryptonotewallet/cryptonote/src/crypto/hash-ops.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash-ops.h
 
-/cryptonotewallet/cryptonote/src/crypto/hash-extra-skein.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash-extra-skein.c
 stddef.h
 -
 stdint.h
 -
 hash-ops.h
-/cryptonotewallet/cryptonote/src/crypto/hash-ops.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash-ops.h
 skein.h
-/cryptonotewallet/cryptonote/src/crypto/skein.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/skein.h
 
-/cryptonotewallet/cryptonote/src/crypto/hash-ops.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash-ops.h
 assert.h
 -
 stdbool.h
@@ -478,11 +488,11 @@ stddef.h
 stdint.h
 -
 ../Common/static_assert.h
-/cryptonotewallet/cryptonote/src/Common/static_assert.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/Common/static_assert.h
 Common/int-util.h
-/cryptonotewallet/cryptonote/src/crypto/Common/int-util.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/Common/int-util.h
 
-/cryptonotewallet/cryptonote/src/crypto/hash.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash.c
 stddef.h
 -
 stdint.h
@@ -490,51 +500,51 @@ stdint.h
 string.h
 -
 hash-ops.h
-/cryptonotewallet/cryptonote/src/crypto/hash-ops.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash-ops.h
 keccak.h
-/cryptonotewallet/cryptonote/src/crypto/keccak.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/keccak.h
 
-/cryptonotewallet/cryptonote/src/crypto/hash.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash.h
 stddef.h
 -
 CryptoTypes.h
 -
 generic-ops.h
-/cryptonotewallet/cryptonote/src/crypto/generic-ops.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/generic-ops.h
 hash-ops.h
-/cryptonotewallet/cryptonote/src/crypto/hash-ops.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash-ops.h
 
-/cryptonotewallet/cryptonote/src/crypto/initializer.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/initializer.h
 assert.h
 -
 stdlib.h
 -
 
-/cryptonotewallet/cryptonote/src/crypto/jh.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/jh.c
 jh.h
-/cryptonotewallet/cryptonote/src/crypto/jh.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/jh.h
 stdint.h
 -
 string.h
 -
 
-/cryptonotewallet/cryptonote/src/crypto/jh.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/jh.h
 
-/cryptonotewallet/cryptonote/src/crypto/keccak.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/keccak.c
 hash-ops.h
-/cryptonotewallet/cryptonote/src/crypto/hash-ops.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash-ops.h
 keccak.h
-/cryptonotewallet/cryptonote/src/crypto/keccak.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/keccak.h
 
-/cryptonotewallet/cryptonote/src/crypto/keccak.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/keccak.h
 stdint.h
 -
 string.h
 -
 
-/cryptonotewallet/cryptonote/src/crypto/oaes_config.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/oaes_config.h
 
-/cryptonotewallet/cryptonote/src/crypto/oaes_lib.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/oaes_lib.c
 stddef.h
 -
 time.h
@@ -558,19 +568,19 @@ sys/types.h
 unistd.h
 -
 oaes_config.h
-/cryptonotewallet/cryptonote/src/crypto/oaes_config.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/oaes_config.h
 oaes_lib.h
-/cryptonotewallet/cryptonote/src/crypto/oaes_lib.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/oaes_lib.h
 rand.h
-/cryptonotewallet/cryptonote/src/crypto/rand.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/rand.h
 
-/cryptonotewallet/cryptonote/src/crypto/oaes_lib.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/oaes_lib.h
 stdint.h
 -
 stdlib.h
 -
 
-/cryptonotewallet/cryptonote/src/crypto/random.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/random.c
 assert.h
 -
 stddef.h
@@ -578,11 +588,11 @@ stddef.h
 string.h
 -
 hash-ops.h
-/cryptonotewallet/cryptonote/src/crypto/hash-ops.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash-ops.h
 initializer.h
-/cryptonotewallet/cryptonote/src/crypto/initializer.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/initializer.h
 random.h
-/cryptonotewallet/cryptonote/src/crypto/random.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/random.h
 windows.h
 -
 wincrypt.h
@@ -602,35 +612,35 @@ sys/types.h
 unistd.h
 -
 
-/cryptonotewallet/cryptonote/src/crypto/random.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/random.h
 stddef.h
 -
 
-/cryptonotewallet/cryptonote/src/crypto/skein.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/skein.c
 stddef.h
 -
 string.h
 -
 skein.h
-/cryptonotewallet/cryptonote/src/crypto/skein.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/skein.h
 assert.h
 -
 assert.h
 -
 
-/cryptonotewallet/cryptonote/src/crypto/skein.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/skein.h
 skein_port.h
-/cryptonotewallet/cryptonote/src/crypto/skein_port.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/skein_port.h
 
-/cryptonotewallet/cryptonote/src/crypto/skein_port.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/skein_port.h
 limits.h
 -
 stdint.h
 -
 Common/int-util.h
-/cryptonotewallet/cryptonote/src/crypto/Common/int-util.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/Common/int-util.h
 
-/cryptonotewallet/cryptonote/src/crypto/slow-hash.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/slow-hash.c
 stddef.h
 -
 stdint.h
@@ -646,23 +656,23 @@ intrin.h
 cpuid.h
 -
 aesb.h
-/cryptonotewallet/cryptonote/src/crypto/aesb.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/aesb.h
 initializer.h
-/cryptonotewallet/cryptonote/src/crypto/initializer.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/initializer.h
 Common/int-util.h
-/cryptonotewallet/cryptonote/src/crypto/Common/int-util.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/Common/int-util.h
 hash-ops.h
-/cryptonotewallet/cryptonote/src/crypto/hash-ops.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash-ops.h
 oaes_lib.h
-/cryptonotewallet/cryptonote/src/crypto/oaes_lib.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/oaes_lib.h
 slow-hash.inl
-/cryptonotewallet/cryptonote/src/crypto/slow-hash.inl
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/slow-hash.inl
 slow-hash.inl
-/cryptonotewallet/cryptonote/src/crypto/slow-hash.inl
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/slow-hash.inl
 
-/cryptonotewallet/cryptonote/src/crypto/slow-hash.inl
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/slow-hash.inl
 
-/cryptonotewallet/cryptonote/src/crypto/tree-hash.c
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/tree-hash.c
 alloca.h
 -
 assert.h
@@ -672,5 +682,15 @@ stddef.h
 string.h
 -
 hash-ops.h
-/cryptonotewallet/cryptonote/src/crypto/hash-ops.h
+/Users/mindy/Desktop/mywallet/uniwallet/cryptonote/src/crypto/hash-ops.h
+
+/usr/include/malloc/malloc.h
+stddef.h
+-
+mach/mach_types.h
+-
+sys/cdefs.h
+-
+Availability.h
+-
 

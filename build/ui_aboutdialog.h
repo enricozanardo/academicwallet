@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'aboutdialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.2.1
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -82,9 +82,9 @@ public:
 
     void retranslateUi(QDialog *AboutDialog)
     {
-        AboutDialog->setWindowTitle(QApplication::translate("AboutDialog", "About %1", 0));
-        m_aboutLabel->setText(QApplication::translate("AboutDialog", "<html><head/><body><p>CryptoNote coin version %1</p><p>CryptoNote coin is the next generation anonymous cryptocurrency based on CryptoNote.</p><p>Copyright (c) 2012-2015. CryptoNote Developers</p><p><a href=\"http://opensource.org/licenses/MIT\"><span style=\" text-decoration: underline; color:#0000ff;\">http://opensource.org/licenses/MIT</span></a></p><p><a href=\"https://cryptonote.org/\"><span style=\" text-decoration: underline; color:#0000ff;\">https://cryptonote.org/</span></a></p></body></html>", 0));
-        m_closeButton->setText(QApplication::translate("AboutDialog", "Close", 0));
+        AboutDialog->setWindowTitle(QApplication::translate("AboutDialog", "About %1", nullptr));
+        m_aboutLabel->setText(QApplication::translate("AboutDialog", "<html><head/><body><p>CryptoNote coin version %1</p><p>CryptoNote coin is the next generation anonymous cryptocurrency based on CryptoNote.</p><p>Copyright (c) 2012-2015. CryptoNote Developers</p><p><a href=\"http://opensource.org/licenses/MIT\"><span style=\" text-decoration: underline; color:#0000ff;\">http://opensource.org/licenses/MIT</span></a></p><p><a href=\"https://cryptonote.org/\"><span style=\" text-decoration: underline; color:#0000ff;\">https://cryptonote.org/</span></a></p></body></html>", nullptr));
+        m_closeButton->setText(QApplication::translate("AboutDialog", "Close", nullptr));
     } // retranslateUi
 
 };

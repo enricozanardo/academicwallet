@@ -1,74 +1,84 @@
 # The set of languages for which implicit dependencies are needed:
-SET(CMAKE_DEPENDS_LANGUAGES
+set(CMAKE_DEPENDS_LANGUAGES
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
-SET(CMAKE_DEPENDS_CHECK_CXX
-  "/cryptonotewallet/build/qrc_resources.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/qrc_resources.cpp.o"
-  "/cryptonotewallet/src/CommandLineParser.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/CommandLineParser.cpp.o"
-  "/cryptonotewallet/src/CryptoNoteWrapper.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/CryptoNoteWrapper.cpp.o"
-  "/cryptonotewallet/src/CurrencyAdapter.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/CurrencyAdapter.cpp.o"
-  "/cryptonotewallet/src/LoggerAdapter.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/LoggerAdapter.cpp.o"
-  "/cryptonotewallet/src/NodeAdapter.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/NodeAdapter.cpp.o"
-  "/cryptonotewallet/src/Settings.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/Settings.cpp.o"
-  "/cryptonotewallet/src/SignalHandler.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/SignalHandler.cpp.o"
-  "/cryptonotewallet/src/WalletAdapter.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/WalletAdapter.cpp.o"
-  "/cryptonotewallet/src/gui/AboutDialog.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/AboutDialog.cpp.o"
-  "/cryptonotewallet/src/gui/AddressBookDialog.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/AddressBookDialog.cpp.o"
-  "/cryptonotewallet/src/gui/AddressBookFrame.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/AddressBookFrame.cpp.o"
-  "/cryptonotewallet/src/gui/AddressBookModel.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/AddressBookModel.cpp.o"
-  "/cryptonotewallet/src/gui/AnimatedLabel.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/AnimatedLabel.cpp.o"
-  "/cryptonotewallet/src/gui/ChangePasswordDialog.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/ChangePasswordDialog.cpp.o"
-  "/cryptonotewallet/src/gui/ExitWidget.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/ExitWidget.cpp.o"
-  "/cryptonotewallet/src/gui/MainWindow.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/MainWindow.cpp.o"
-  "/cryptonotewallet/src/gui/NewAddressDialog.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/NewAddressDialog.cpp.o"
-  "/cryptonotewallet/src/gui/NewPasswordDialog.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/NewPasswordDialog.cpp.o"
-  "/cryptonotewallet/src/gui/OverviewFrame.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/OverviewFrame.cpp.o"
-  "/cryptonotewallet/src/gui/PasswordDialog.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/PasswordDialog.cpp.o"
-  "/cryptonotewallet/src/gui/ReceiveFrame.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/ReceiveFrame.cpp.o"
-  "/cryptonotewallet/src/gui/RecentTransactionsModel.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/RecentTransactionsModel.cpp.o"
-  "/cryptonotewallet/src/gui/SendFrame.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/SendFrame.cpp.o"
-  "/cryptonotewallet/src/gui/SortedTransactionsModel.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/SortedTransactionsModel.cpp.o"
-  "/cryptonotewallet/src/gui/TransactionDetailsDialog.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/TransactionDetailsDialog.cpp.o"
-  "/cryptonotewallet/src/gui/TransactionFrame.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/TransactionFrame.cpp.o"
-  "/cryptonotewallet/src/gui/TransactionsFrame.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/TransactionsFrame.cpp.o"
-  "/cryptonotewallet/src/gui/TransactionsListModel.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/TransactionsListModel.cpp.o"
-  "/cryptonotewallet/src/gui/TransactionsModel.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/TransactionsModel.cpp.o"
-  "/cryptonotewallet/src/gui/TransferFrame.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/gui/TransferFrame.cpp.o"
-  "/cryptonotewallet/src/main.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/src/main.cpp.o"
-  "/cryptonotewallet/build/universitycoin_automoc.cpp" "/cryptonotewallet/build/CMakeFiles/universitycoin.dir/universitycoin_automoc.cpp.o"
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/mindy/Desktop/mywallet/uniwallet/build/qrc_resources.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/qrc_resources.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/CommandLineParser.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/CommandLineParser.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/CryptoNoteWrapper.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/CryptoNoteWrapper.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/CurrencyAdapter.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/CurrencyAdapter.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/LoggerAdapter.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/LoggerAdapter.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/NodeAdapter.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/NodeAdapter.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/Settings.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/Settings.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/SignalHandler.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/SignalHandler.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/WalletAdapter.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/WalletAdapter.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/AboutDialog.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/AboutDialog.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/AddressBookDialog.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/AddressBookDialog.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/AddressBookFrame.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/AddressBookFrame.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/AddressBookModel.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/AddressBookModel.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/AnimatedLabel.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/AnimatedLabel.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/ChangePasswordDialog.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/ChangePasswordDialog.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/ExitWidget.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/ExitWidget.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/MainWindow.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/MainWindow.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/MainWindow.mm" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/MainWindow.mm.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/NewAddressDialog.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/NewAddressDialog.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/NewPasswordDialog.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/NewPasswordDialog.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/OverviewFrame.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/OverviewFrame.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/PasswordDialog.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/PasswordDialog.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/ReceiveFrame.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/ReceiveFrame.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/RecentTransactionsModel.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/RecentTransactionsModel.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/SendFrame.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/SendFrame.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/SortedTransactionsModel.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/SortedTransactionsModel.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/TransactionDetailsDialog.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/TransactionDetailsDialog.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/TransactionFrame.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/TransactionFrame.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/TransactionsFrame.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/TransactionsFrame.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/TransactionsListModel.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/TransactionsListModel.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/TransactionsModel.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/TransactionsModel.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/gui/TransferFrame.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/gui/TransferFrame.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/src/main.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/src/main.cpp.o"
+  "/Users/mindy/Desktop/mywallet/uniwallet/build/universitycoin_autogen/mocs_compilation.cpp" "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir/universitycoin_autogen/mocs_compilation.cpp.o"
   )
-SET(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # Preprocessor definitions for this target.
-SET(CMAKE_TARGET_DEFINITIONS
-  "GIT_REVISION=\"5e0d1b2\""
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "GIT_REVISION=\"726c631\""
   "QT_CORE_LIB"
   "QT_GUI_LIB"
   "QT_NO_DEBUG"
+  "QT_PRINTSUPPORT_LIB"
   "QT_WIDGETS_LIB"
   "_GNU_SOURCE"
   )
 
-# Targets to which this target links.
-SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/cryptonotewallet/build/CMakeFiles/cryptonote.dir/DependInfo.cmake"
-  )
-
 # The include file search paths:
-SET(CMAKE_C_TARGET_INCLUDE_PATH
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "universitycoin_autogen/include"
   "."
   "../src"
   "../cryptonote/external"
   "../cryptonote/include"
   "../cryptonote/src"
-  "../cryptonote/src/Platform/Linux"
-  "/usr/include/qt5"
-  "/usr/include/qt5/QtWidgets"
-  "/usr/include/qt5/QtGui"
-  "/usr/include/qt5/QtCore"
-  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"
+  "/usr/local/include"
+  "/usr/include/malloc"
+  "../cryptonote/src/Platform/OSX"
+  "/usr/local/Cellar/qt/5.10.0_1/lib/QtPrintSupport.framework"
+  "/usr/local/Cellar/qt/5.10.0_1/lib/QtPrintSupport.framework/Headers"
+  "/usr/local/Cellar/qt/5.10.0_1/lib/QtWidgets.framework"
+  "/usr/local/Cellar/qt/5.10.0_1/lib/QtWidgets.framework/Headers"
+  "/usr/local/Cellar/qt/5.10.0_1/lib/QtGui.framework"
+  "/usr/local/Cellar/qt/5.10.0_1/lib/QtGui.framework/Headers"
+  "/usr/local/Cellar/qt/5.10.0_1/lib/QtCore.framework"
+  "/usr/local/Cellar/qt/5.10.0_1/lib/QtCore.framework/Headers"
+  "/usr/local/Cellar/qt/5.10.0_1/./mkspecs/macx-clang"
+  "/System/Library/Frameworks/OpenGL.framework/Headers"
   )
-SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-SET(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/cryptonote.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

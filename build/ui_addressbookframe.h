@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'addressbookframe.ui'
 **
-** Created by: Qt User Interface Compiler version 5.2.1
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -94,10 +94,10 @@ public:
 
     void retranslateUi(QFrame *AddressBookFrame)
     {
-        AddressBookFrame->setWindowTitle(QApplication::translate("AddressBookFrame", "Frame", 0));
-        m_addAddressButton->setText(QApplication::translate("AddressBookFrame", "New address", 0));
-        m_deleteAddressButton->setText(QApplication::translate("AddressBookFrame", "Delete address", 0));
-        m_copyAddressButton->setText(QApplication::translate("AddressBookFrame", "Copy address", 0));
+        AddressBookFrame->setWindowTitle(QApplication::translate("AddressBookFrame", "Frame", nullptr));
+        m_addAddressButton->setText(QApplication::translate("AddressBookFrame", "New address", nullptr));
+        m_deleteAddressButton->setText(QApplication::translate("AddressBookFrame", "Delete address", nullptr));
+        m_copyAddressButton->setText(QApplication::translate("AddressBookFrame", "Copy address", nullptr));
     } // retranslateUi
 
 };

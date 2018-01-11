@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'transactionframe.ui'
 **
-** Created by: Qt User Interface Compiler version 5.2.1
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -107,11 +107,11 @@ public:
 
     void retranslateUi(QFrame *TransactionFrame)
     {
-        TransactionFrame->setWindowTitle(QApplication::translate("TransactionFrame", "Frame", 0));
+        TransactionFrame->setWindowTitle(QApplication::translate("TransactionFrame", "Frame", nullptr));
         m_iconLabel->setText(QString());
-        m_timeLabel->setText(QApplication::translate("TransactionFrame", "TextLabel", 0));
-        m_amountLabel->setText(QApplication::translate("TransactionFrame", "TextLabel", 0));
-        m_hashLabel->setText(QApplication::translate("TransactionFrame", "TextLabel", 0));
+        m_timeLabel->setText(QApplication::translate("TransactionFrame", "TextLabel", nullptr));
+        m_amountLabel->setText(QApplication::translate("TransactionFrame", "TextLabel", nullptr));
+        m_hashLabel->setText(QApplication::translate("TransactionFrame", "TextLabel", nullptr));
     } // retranslateUi
 
 };

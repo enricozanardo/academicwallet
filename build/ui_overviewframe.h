@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'overviewframe.ui'
 **
-** Created by: Qt User Interface Compiler version 5.2.1
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -203,12 +203,12 @@ public:
 
     void retranslateUi(QFrame *OverviewFrame)
     {
-        OverviewFrame->setWindowTitle(QApplication::translate("OverviewFrame", "Frame", 0));
-        label_6->setText(QApplication::translate("OverviewFrame", "Total:", 0));
-        label->setText(QApplication::translate("OverviewFrame", "Wallet", 0));
-        label_4->setText(QApplication::translate("OverviewFrame", "Unconfirmed:", 0));
-        label_2->setText(QApplication::translate("OverviewFrame", "Balance:", 0));
-        label_8->setText(QApplication::translate("OverviewFrame", "Recent transactions", 0));
+        OverviewFrame->setWindowTitle(QApplication::translate("OverviewFrame", "Frame", nullptr));
+        label_6->setText(QApplication::translate("OverviewFrame", "Total:", nullptr));
+        label->setText(QApplication::translate("OverviewFrame", "Wallet", nullptr));
+        label_4->setText(QApplication::translate("OverviewFrame", "Unconfirmed:", nullptr));
+        label_2->setText(QApplication::translate("OverviewFrame", "Balance:", nullptr));
+        label_8->setText(QApplication::translate("OverviewFrame", "Recent transactions", nullptr));
     } // retranslateUi
 
 };

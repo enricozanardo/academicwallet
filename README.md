@@ -1,27 +1,19 @@
 **1. Clone wallet sources**
 
 ```
-git clone https://github.com/cryptonotefoundation/cryptonotewallet.git
-```
-
-**2. Modify `CryptoNoteWallet.cmake`**
- 
-```
-set(CN_PROJECT_NAME "universitycoin")
-set(CN_CURRENCY_DISPLAY_NAME "UniCoin")
-set(CN_CURRENCY_TICKER "UNC")
+git clone https://github.com/onezerobinary/academicwallet.git
 ```
 
 **3. Set symbolic link to coin sources at the same level as `src`. For example:**
 
 ```
-ln -s ../cryptonote cryptonote
+ln -s ../academic cryptonote
 ```
 
 Alternative way is to create git submodule:
 
 ```
-git submodule add https://github.com/onezerobinary/universitycoin.git cryptonote
+git submodule add https://github.com/onezerobinary/academic.git cryptonote
 ```
 
 Replace URL with git remote repository of your coin.

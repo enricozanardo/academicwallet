@@ -1,4 +1,4 @@
 
-set(CN_PROJECT_NAME "universitycoin")
-set(CN_CURRENCY_DISPLAY_NAME "UniCoin")
-set(CN_CURRENCY_TICKER "UNC")
+set(CN_PROJECT_NAME "academic")
+set(CN_CURRENCY_DISPLAY_NAME "Academic Coin")
+set(CN_CURRENCY_TICKER "ACA")

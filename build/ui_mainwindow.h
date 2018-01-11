@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.2.1
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -249,31 +249,33 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0));
-        m_overviewAction->setText(QApplication::translate("MainWindow", "Overview", 0));
-        m_sendAction->setText(QApplication::translate("MainWindow", "Send", 0));
-        m_receiveAction->setText(QApplication::translate("MainWindow", "Receive", 0));
-        m_transactionsAction->setText(QApplication::translate("MainWindow", "Transactions", 0));
-        m_exitAction->setText(QApplication::translate("MainWindow", "Exit", 0));
-        m_exitAction->setShortcut(QApplication::translate("MainWindow", "Ctrl+Q", 0));
-        m_addressBookAction->setText(QApplication::translate("MainWindow", "Address Book", 0));
-        m_createWalletAction->setText(QApplication::translate("MainWindow", "Create wallet", 0));
-        m_openWalletAction->setText(QApplication::translate("MainWindow", "Open wallet", 0));
-        m_encryptWalletAction->setText(QApplication::translate("MainWindow", "Encrypt wallet", 0));
-        m_changePasswordAction->setText(QApplication::translate("MainWindow", "Change password", 0));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
+        m_overviewAction->setText(QApplication::translate("MainWindow", "Overview", nullptr));
+        m_sendAction->setText(QApplication::translate("MainWindow", "Send", nullptr));
+        m_receiveAction->setText(QApplication::translate("MainWindow", "Receive", nullptr));
+        m_transactionsAction->setText(QApplication::translate("MainWindow", "Transactions", nullptr));
+        m_exitAction->setText(QApplication::translate("MainWindow", "Exit", nullptr));
+#ifndef QT_NO_SHORTCUT
+        m_exitAction->setShortcut(QApplication::translate("MainWindow", "Ctrl+Q", nullptr));
+#endif // QT_NO_SHORTCUT
+        m_addressBookAction->setText(QApplication::translate("MainWindow", "Address Book", nullptr));
+        m_createWalletAction->setText(QApplication::translate("MainWindow", "Create wallet", nullptr));
+        m_openWalletAction->setText(QApplication::translate("MainWindow", "Open wallet", nullptr));
+        m_encryptWalletAction->setText(QApplication::translate("MainWindow", "Encrypt wallet", nullptr));
+        m_changePasswordAction->setText(QApplication::translate("MainWindow", "Change password", nullptr));
 #ifndef QT_NO_TOOLTIP
-        m_changePasswordAction->setToolTip(QApplication::translate("MainWindow", "Change password", 0));
+        m_changePasswordAction->setToolTip(QApplication::translate("MainWindow", "Change password", nullptr));
 #endif // QT_NO_TOOLTIP
-        m_aboutCryptonoteAction->setText(QApplication::translate("MainWindow", "About", 0));
-        m_aboutQtAction->setText(QApplication::translate("MainWindow", "About Qt", 0));
-        m_backupWalletAction->setText(QApplication::translate("MainWindow", "Backup wallet", 0));
-        m_startOnLoginAction->setText(QApplication::translate("MainWindow", "Start on system login", 0));
-        m_minimizeToTrayAction->setText(QApplication::translate("MainWindow", "Minimize to tray", 0));
-        m_closeToTrayAction->setText(QApplication::translate("MainWindow", "Close to tray", 0));
-        menuFile->setTitle(QApplication::translate("MainWindow", "File", 0));
-        menuSettings->setTitle(QApplication::translate("MainWindow", "Settings", 0));
-        menuHelp->setTitle(QApplication::translate("MainWindow", "Help", 0));
-        toolBar->setWindowTitle(QApplication::translate("MainWindow", "toolBar", 0));
+        m_aboutCryptonoteAction->setText(QApplication::translate("MainWindow", "About", nullptr));
+        m_aboutQtAction->setText(QApplication::translate("MainWindow", "About Qt", nullptr));
+        m_backupWalletAction->setText(QApplication::translate("MainWindow", "Backup wallet", nullptr));
+        m_startOnLoginAction->setText(QApplication::translate("MainWindow", "Start on system login", nullptr));
+        m_minimizeToTrayAction->setText(QApplication::translate("MainWindow", "Minimize to tray", nullptr));
+        m_closeToTrayAction->setText(QApplication::translate("MainWindow", "Close to tray", nullptr));
+        menuFile->setTitle(QApplication::translate("MainWindow", "File", nullptr));
+        menuSettings->setTitle(QApplication::translate("MainWindow", "Settings", nullptr));
+        menuHelp->setTitle(QApplication::translate("MainWindow", "Help", nullptr));
+        toolBar->setWindowTitle(QApplication::translate("MainWindow", "toolBar", nullptr));
     } // retranslateUi
 
 };

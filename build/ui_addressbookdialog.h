@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'addressbookdialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.2.1
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -68,8 +68,8 @@ public:
 
     void retranslateUi(QDialog *AddressBookDialog)
     {
-        AddressBookDialog->setWindowTitle(QApplication::translate("AddressBookDialog", "Select address", 0));
-        m_okButton->setText(QApplication::translate("AddressBookDialog", "Choose", 0));
+        AddressBookDialog->setWindowTitle(QApplication::translate("AddressBookDialog", "Select address", nullptr));
+        m_okButton->setText(QApplication::translate("AddressBookDialog", "Choose", nullptr));
     } // retranslateUi
 
 };

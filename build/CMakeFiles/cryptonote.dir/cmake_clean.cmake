@@ -1,6 +1,8 @@
-FILE(REMOVE_RECURSE
-  "cryptonote_automoc.cpp"
-  "universitycoin_automoc.cpp"
+file(REMOVE_RECURSE
+  "universitycoin_autogen"
+  "CMakeFiles/universitycoin_autogen.dir/AutogenOldSettings.cmake"
+  "cryptonote_autogen"
+  "CMakeFiles/cryptonote_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/cryptonote.dir/cryptonote/external/miniupnpc/connecthostport.c.o"
   "CMakeFiles/cryptonote.dir/cryptonote/external/miniupnpc/igd_desc_parse.c.o"
   "CMakeFiles/cryptonote.dir/cryptonote/external/miniupnpc/minisoap.c.o"
@@ -125,19 +127,21 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/cryptonote.dir/cryptonote/src/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.o"
   "CMakeFiles/cryptonote.dir/cryptonote/src/BlockchainExplorer/BlockchainExplorerErrors.cpp.o"
   "CMakeFiles/cryptonote.dir/cryptonote/external/miniupnpc/minissdpc.c.o"
-  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/Linux/System/TcpConnection.cpp.o"
-  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/Linux/System/TcpConnector.cpp.o"
-  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/Linux/System/Timer.cpp.o"
-  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/Linux/System/ErrorMessage.cpp.o"
-  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/Linux/System/Ipv4Resolver.cpp.o"
-  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/Linux/System/TcpListener.cpp.o"
-  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/Linux/System/Dispatcher.cpp.o"
-  "CMakeFiles/cryptonote.dir/cryptonote_automoc.cpp.o"
+  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/OSX/System/Context.c.o"
+  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/OSX/System/Dispatcher.cpp.o"
+  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/OSX/System/ErrorMessage.cpp.o"
+  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/OSX/System/Ipv4Resolver.cpp.o"
+  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/OSX/System/TcpConnection.cpp.o"
+  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/OSX/System/TcpConnector.cpp.o"
+  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/OSX/System/TcpListener.cpp.o"
+  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/OSX/System/Timer.cpp.o"
+  "CMakeFiles/cryptonote.dir/cryptonote/src/Platform/OSX/System/asm.s.o"
+  "CMakeFiles/cryptonote.dir/cryptonote_autogen/mocs_compilation.cpp.o"
   "libcryptonote.pdb"
   "libcryptonote.a"
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C CXX)
-  INCLUDE(CMakeFiles/cryptonote.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang ASM C CXX)
+  include(CMakeFiles/cryptonote.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

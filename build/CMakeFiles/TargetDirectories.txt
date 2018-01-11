@@ -1,4 +1,6 @@
-/cryptonotewallet/build/CMakeFiles/cryptonote.dir
-/cryptonotewallet/build/CMakeFiles/cryptonote_automoc.dir
-/cryptonotewallet/build/CMakeFiles/universitycoin.dir
-/cryptonotewallet/build/CMakeFiles/universitycoin_automoc.dir
+/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/rebuild_cache.dir
+/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/edit_cache.dir
+/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin.dir
+/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/cryptonote.dir
+/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/universitycoin_autogen.dir
+/Users/mindy/Desktop/mywallet/uniwallet/build/CMakeFiles/cryptonote_autogen.dir

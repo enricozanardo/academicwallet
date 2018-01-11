@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'sendframe.ui'
 **
-** Created by: Qt User Interface Compiler version 5.2.1
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -195,13 +195,13 @@ public:
 
     void retranslateUi(QFrame *SendFrame)
     {
-        SendFrame->setWindowTitle(QApplication::translate("SendFrame", "Frame", 0));
-        label_2->setText(QApplication::translate("SendFrame", "Anonimity level:", 0));
-        label_6->setText(QApplication::translate("SendFrame", "PaymentID:", 0));
-        m_sendButton->setText(QApplication::translate("SendFrame", "Send", 0));
-        m_clearAllButton->setText(QApplication::translate("SendFrame", "Clear All", 0));
-        m_addRecipientButton->setText(QApplication::translate("SendFrame", "Add Recipient", 0));
-        label_4->setText(QApplication::translate("SendFrame", "Balance:", 0));
+        SendFrame->setWindowTitle(QApplication::translate("SendFrame", "Frame", nullptr));
+        label_2->setText(QApplication::translate("SendFrame", "Anonimity level:", nullptr));
+        label_6->setText(QApplication::translate("SendFrame", "PaymentID:", nullptr));
+        m_sendButton->setText(QApplication::translate("SendFrame", "Send", nullptr));
+        m_clearAllButton->setText(QApplication::translate("SendFrame", "Clear All", nullptr));
+        m_addRecipientButton->setText(QApplication::translate("SendFrame", "Add Recipient", nullptr));
+        label_4->setText(QApplication::translate("SendFrame", "Balance:", nullptr));
     } // retranslateUi
 
 };

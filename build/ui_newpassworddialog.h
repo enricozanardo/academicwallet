@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'newpassworddialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.2.1
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -49,7 +49,6 @@ public:
         m_okButton = new QPushButton(NewPasswordDialog);
         m_okButton->setObjectName(QStringLiteral("m_okButton"));
         m_okButton->setEnabled(false);
-        m_okButton->setDefault(true);
 
         gridLayout->addWidget(m_okButton, 3, 1, 1, 1);
 
@@ -109,17 +108,20 @@ public:
         QObject::connect(m_passwordEdit, SIGNAL(textChanged(QString)), NewPasswordDialog, SLOT(checkPassword(QString)));
         QObject::connect(m_passwordConfirmationEdit, SIGNAL(textChanged(QString)), NewPasswordDialog, SLOT(checkPassword(QString)));
 
+        m_okButton->setDefault(true);
+
+
         QMetaObject::connectSlotsByName(NewPasswordDialog);
     } // setupUi
 
     void retranslateUi(QDialog *NewPasswordDialog)
     {
-        NewPasswordDialog->setWindowTitle(QApplication::translate("NewPasswordDialog", "Enter password", 0));
-        m_okButton->setText(QApplication::translate("NewPasswordDialog", "Ok", 0));
-        m_cancelButton->setText(QApplication::translate("NewPasswordDialog", "Cancel", 0));
-        label->setText(QApplication::translate("NewPasswordDialog", "Password:", 0));
-        label_2->setText(QApplication::translate("NewPasswordDialog", "Confirm:", 0));
-        m_errorLabel->setText(QApplication::translate("NewPasswordDialog", "Password not confirmed", 0));
+        NewPasswordDialog->setWindowTitle(QApplication::translate("NewPasswordDialog", "Enter password", nullptr));
+        m_okButton->setText(QApplication::translate("NewPasswordDialog", "Ok", nullptr));
+        m_cancelButton->setText(QApplication::translate("NewPasswordDialog", "Cancel", nullptr));
+        label->setText(QApplication::translate("NewPasswordDialog", "Password:", nullptr));
+        label_2->setText(QApplication::translate("NewPasswordDialog", "Confirm:", nullptr));
+        m_errorLabel->setText(QApplication::translate("NewPasswordDialog", "Password not confirmed", nullptr));
     } // retranslateUi
 
 };

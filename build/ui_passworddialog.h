@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'passworddialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.2.1
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -70,7 +70,6 @@ public:
         m_okButton = new QPushButton(PasswordDialog);
         m_okButton->setObjectName(QStringLiteral("m_okButton"));
         m_okButton->setEnabled(true);
-        m_okButton->setDefault(true);
 
         gridLayout->addWidget(m_okButton, 3, 1, 1, 1);
 
@@ -87,16 +86,19 @@ public:
         QObject::connect(m_okButton, SIGNAL(clicked()), PasswordDialog, SLOT(accept()));
         QObject::connect(m_cancelButton, SIGNAL(clicked()), PasswordDialog, SLOT(reject()));
 
+        m_okButton->setDefault(true);
+
+
         QMetaObject::connectSlotsByName(PasswordDialog);
     } // setupUi
 
     void retranslateUi(QDialog *PasswordDialog)
     {
-        PasswordDialog->setWindowTitle(QApplication::translate("PasswordDialog", "Enter password", 0));
-        m_cancelButton->setText(QApplication::translate("PasswordDialog", "Cancel", 0));
-        label->setText(QApplication::translate("PasswordDialog", "Password:", 0));
-        m_okButton->setText(QApplication::translate("PasswordDialog", "Ok", 0));
-        m_errorLabel->setText(QApplication::translate("PasswordDialog", "Wrong password", 0));
+        PasswordDialog->setWindowTitle(QApplication::translate("PasswordDialog", "Enter password", nullptr));
+        m_cancelButton->setText(QApplication::translate("PasswordDialog", "Cancel", nullptr));
+        label->setText(QApplication::translate("PasswordDialog", "Password:", nullptr));
+        m_okButton->setText(QApplication::translate("PasswordDialog", "Ok", nullptr));
+        m_errorLabel->setText(QApplication::translate("PasswordDialog", "Wrong password", nullptr));
     } // retranslateUi
 
 };

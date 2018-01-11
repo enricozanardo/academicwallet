@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'newaddressdialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.2.1
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -83,7 +83,6 @@ public:
         m_okButton = new QPushButton(NewAddressDialog);
         m_okButton->setObjectName(QStringLiteral("m_okButton"));
         m_okButton->setEnabled(true);
-        m_okButton->setDefault(true);
 
         gridLayout->addWidget(m_okButton, 2, 2, 1, 1);
 
@@ -97,16 +96,19 @@ public:
         QObject::connect(m_okButton, SIGNAL(clicked()), NewAddressDialog, SLOT(accept()));
         QObject::connect(m_cancelButton, SIGNAL(clicked()), NewAddressDialog, SLOT(reject()));
 
+        m_okButton->setDefault(true);
+
+
         QMetaObject::connectSlotsByName(NewAddressDialog);
     } // setupUi
 
     void retranslateUi(QDialog *NewAddressDialog)
     {
-        NewAddressDialog->setWindowTitle(QApplication::translate("NewAddressDialog", "New address", 0));
-        label->setText(QApplication::translate("NewAddressDialog", "Label:", 0));
-        label_2->setText(QApplication::translate("NewAddressDialog", "Address:", 0));
-        m_okButton->setText(QApplication::translate("NewAddressDialog", "Ok", 0));
-        m_cancelButton->setText(QApplication::translate("NewAddressDialog", "Cancel", 0));
+        NewAddressDialog->setWindowTitle(QApplication::translate("NewAddressDialog", "New address", nullptr));
+        label->setText(QApplication::translate("NewAddressDialog", "Label:", nullptr));
+        label_2->setText(QApplication::translate("NewAddressDialog", "Address:", nullptr));
+        m_okButton->setText(QApplication::translate("NewAddressDialog", "Ok", nullptr));
+        m_cancelButton->setText(QApplication::translate("NewAddressDialog", "Cancel", nullptr));
     } // retranslateUi
 
 };

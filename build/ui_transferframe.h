@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'transferframe.ui'
 **
-** Created by: Qt User Interface Compiler version 5.2.1
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -102,7 +102,7 @@ public:
         m_amountSpin->setLayoutDirection(Qt::LeftToRight);
         m_amountSpin->setSuffix(QStringLiteral(""));
         m_amountSpin->setDecimals(8);
-        m_amountSpin->setMaximum(1e+09);
+        m_amountSpin->setMaximum(1e+9);
 
         gridLayout->addWidget(m_amountSpin, 2, 1, 1, 1);
 
@@ -127,14 +127,14 @@ public:
 
     void retranslateUi(QFrame *TransferFrame)
     {
-        TransferFrame->setWindowTitle(QApplication::translate("TransferFrame", "Frame", 0));
-        label->setText(QApplication::translate("TransferFrame", "Pay To:", 0));
-        m_addressBookButton->setText(QApplication::translate("TransferFrame", "...", 0));
-        m_pasteButton->setText(QApplication::translate("TransferFrame", "...", 0));
-        m_labelEdit->setPlaceholderText(QApplication::translate("TransferFrame", "Enter a label for this address to add it to your address book", 0));
-        label_3->setText(QApplication::translate("TransferFrame", "Amount:", 0));
-        m_removeButton->setText(QApplication::translate("TransferFrame", "...", 0));
-        label_2->setText(QApplication::translate("TransferFrame", "Label:", 0));
+        TransferFrame->setWindowTitle(QApplication::translate("TransferFrame", "Frame", nullptr));
+        label->setText(QApplication::translate("TransferFrame", "Pay To:", nullptr));
+        m_addressBookButton->setText(QApplication::translate("TransferFrame", "...", nullptr));
+        m_pasteButton->setText(QApplication::translate("TransferFrame", "...", nullptr));
+        m_labelEdit->setPlaceholderText(QApplication::translate("TransferFrame", "Enter a label for this address to add it to your address book", nullptr));
+        label_3->setText(QApplication::translate("TransferFrame", "Amount:", nullptr));
+        m_removeButton->setText(QApplication::translate("TransferFrame", "...", nullptr));
+        label_2->setText(QApplication::translate("TransferFrame", "Label:", nullptr));
     } // retranslateUi
 
 };

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'exitwidget.ui'
 **
-** Created by: Qt User Interface Compiler version 5.2.1
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -53,10 +53,10 @@ public:
 
     void retranslateUi(QWidget *ExitWidget)
     {
-        ExitWidget->setWindowTitle(QApplication::translate("ExitWidget", "Saving data", 0));
+        ExitWidget->setWindowTitle(QApplication::translate("ExitWidget", "Saving data", nullptr));
         m_clockLabel->setText(QString());
         m_label->setText(QApplication::translate("ExitWidget", "%1 wallet is saving data.\n"
-"Please wait...", 0));
+"Please wait...", nullptr));
     } // retranslateUi
 
 };

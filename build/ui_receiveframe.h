@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'receiveframe.ui'
 **
-** Created by: Qt User Interface Compiler version 5.2.1
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -80,9 +80,9 @@ public:
 
     void retranslateUi(QFrame *ReceiveFrame)
     {
-        ReceiveFrame->setWindowTitle(QApplication::translate("ReceiveFrame", "Frame", 0));
-        label->setText(QApplication::translate("ReceiveFrame", "Address:", 0));
-        m_copyButton->setText(QApplication::translate("ReceiveFrame", "...", 0));
+        ReceiveFrame->setWindowTitle(QApplication::translate("ReceiveFrame", "Frame", nullptr));
+        label->setText(QApplication::translate("ReceiveFrame", "Address:", nullptr));
+        m_copyButton->setText(QApplication::translate("ReceiveFrame", "...", nullptr));
     } // retranslateUi
 
 };
