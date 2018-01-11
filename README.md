@@ -23,3 +23,8 @@ Replace URL with git remote repository of your coin.
 ```
 mkdir build && cd build && cmake .. && make
 ```
+on MacOS specify qt path, like in the example:
+
+```
+mkdir build && cd build && cmake .. -DCMAKE_PREFIX_PATH=/usr/local/Cellar/qt/5.10.0_1 && make
+```
